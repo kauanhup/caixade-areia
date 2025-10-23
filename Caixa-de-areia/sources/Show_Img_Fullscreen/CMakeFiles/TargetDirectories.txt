@@ -1,0 +1,3 @@
+/home/projeto/Caixa-e-Agua/sources/Show_Img_Fullscreen/CMakeFiles/rebuild_cache.dir
+/home/projeto/Caixa-e-Agua/sources/Show_Img_Fullscreen/CMakeFiles/showFullScreen.dir
+/home/projeto/Caixa-e-Agua/sources/Show_Img_Fullscreen/CMakeFiles/edit_cache.dir

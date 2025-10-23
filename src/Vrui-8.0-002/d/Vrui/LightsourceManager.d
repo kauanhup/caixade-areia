@@ -1,0 +1,31 @@
+$(OBJDIR)/Vrui/LightsourceManager.o $(OBJDIR)/pic/Vrui/LightsourceManager.o: Vrui/LightsourceManager.cpp \
+ /home/projeto/src/Vrui-8.0-002/Vrui/LightsourceManager.h \
+ /home/projeto/src/Vrui-8.0-002/Vrui/Geometry.h \
+ /home/projeto/src/Vrui-8.0-002/Vrui/Lightsource.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLLight.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLColor.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLScalarLimits.h \
+ /home/projeto/src/Vrui-8.0-002/Math/Math.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLVector.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLMatrixTemplates.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLLightTemplates.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLLightEnums.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLLightTracker.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLContextData.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/HashTable.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/PoolAllocator.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/StandardHashFunction.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/CallbackData.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/CallbackList.h \
+ /home/projeto/src/Vrui-8.0-002/GL/TLSHelper.h \
+ /home/projeto/src/Vrui-8.0-002/GL/Config.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLObject.h \
+ /home/projeto/src/Vrui-8.0-002/Vrui/DisplayState.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Point.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/ComponentArray.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Vector.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/OrthogonalTransformation.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/HVector.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Rotation.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/ProjectiveTransformation.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Matrix.h

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/projeto/Caixa-e-Agua/sources/Compara_Imagens/ComparaImagens.cpp
+opencv2/imgproc/imgproc.hpp
+/home/projeto/Caixa-e-Agua/sources/Compara_Imagens/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/projeto/Caixa-e-Agua/sources/Compara_Imagens/opencv2/highgui/highgui.hpp
+iostream
+-
+string
+-
+

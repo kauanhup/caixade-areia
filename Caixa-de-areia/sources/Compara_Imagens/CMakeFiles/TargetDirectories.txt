@@ -1,0 +1,3 @@
+/home/projeto/Caixa-e-Agua/sources/Compara_Imagens/CMakeFiles/rebuild_cache.dir
+/home/projeto/Caixa-e-Agua/sources/Compara_Imagens/CMakeFiles/ComparaImagens.dir
+/home/projeto/Caixa-e-Agua/sources/Compara_Imagens/CMakeFiles/edit_cache.dir

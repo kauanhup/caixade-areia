@@ -1,0 +1,30 @@
+$(OBJDIR)/GLMotif/ColorPalette.o $(OBJDIR)/pic/GLMotif/ColorPalette.o: GLMotif/ColorPalette.cpp \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/ColorPalette.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/CallbackData.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/CallbackList.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/RowColumn.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/Alignment.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/Container.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/Widget.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/Types.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Point.h \
+ /home/projeto/src/Vrui-8.0-002/Math/Math.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/ComponentArray.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Vector.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Ray.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLColor.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLScalarLimits.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLVector.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLBox.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/NewButton.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/SingleChildContainer.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/HSVColorSelector.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/DragWidget.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/Slider.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/TimerEventScheduler.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/PriorityHeap.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/Utility.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/VariableTracker.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/SizedTypes.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/StyleSheet.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/ColorSwatch.h

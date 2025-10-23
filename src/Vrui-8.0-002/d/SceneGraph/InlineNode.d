@@ -1,0 +1,31 @@
+$(OBJDIR)/SceneGraph/InlineNode.o $(OBJDIR)/pic/SceneGraph/InlineNode.o: SceneGraph/InlineNode.cpp \
+ /home/projeto/src/Vrui-8.0-002/SceneGraph/InlineNode.h \
+ /home/projeto/src/Vrui-8.0-002/SceneGraph/FieldTypes.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/Autopointer.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLColor.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLScalarLimits.h \
+ /home/projeto/src/Vrui-8.0-002/Math/Math.h \
+ /home/projeto/src/Vrui-8.0-002/SceneGraph/Geometry.h \
+ /home/projeto/src/Vrui-8.0-002/SceneGraph/GroupNode.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/ComponentArray.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Point.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Vector.h \
+ /home/projeto/src/Vrui-8.0-002/SceneGraph/GraphNode.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/SizedTypes.h \
+ /home/projeto/src/Vrui-8.0-002/SceneGraph/Node.h \
+ /home/projeto/src/Vrui-8.0-002/Threads/RefCounted.h \
+ /home/projeto/src/Vrui-8.0-002/Threads/Atomic.h \
+ /home/projeto/src/Vrui-8.0-002/Threads/Config.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/MessageLogger.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/RefCounted.h \
+ /home/projeto/src/Vrui-8.0-002/SceneGraph/VRMLFile.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/StringHashFunctions.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/HashTable.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/PoolAllocator.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/StandardHashFunction.h \
+ /home/projeto/src/Vrui-8.0-002/IO/File.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/Endianness.h \
+ /home/projeto/src/Vrui-8.0-002/IO/TokenSource.h \
+ /home/projeto/src/Vrui-8.0-002/IO/Directory.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/FileTests.h \
+ /home/projeto/src/Vrui-8.0-002/IO/SeekableFile.h

@@ -1,0 +1,36 @@
+$(OBJDIR)/GLMotif/ScrollBar.o $(OBJDIR)/pic/GLMotif/ScrollBar.o: GLMotif/ScrollBar.cpp \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/ScrollBar.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/CallbackData.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/CallbackList.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/TimerEventScheduler.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/PriorityHeap.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/Utility.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/GlyphGadget.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/Types.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Point.h \
+ /home/projeto/src/Vrui-8.0-002/Math/Math.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/ComponentArray.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Vector.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Ray.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLColor.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLScalarLimits.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLVector.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLBox.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/Widget.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/DragWidget.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLColorTemplates.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLColorOperations.h \
+ /home/projeto/src/Vrui-8.0-002/GL/GLVertexTemplates.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/StyleSheet.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/Event.h \
+ /home/projeto/src/Vrui-8.0-002/Math/Constants.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/TextControlEvent.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/WidgetManager.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/HashTable.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/PoolAllocator.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/StandardHashFunction.h \
+ /home/projeto/src/Vrui-8.0-002/Misc/ThrowStdErr.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/OrthogonalTransformation.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/HVector.h \
+ /home/projeto/src/Vrui-8.0-002/Geometry/Rotation.h \
+ /home/projeto/src/Vrui-8.0-002/GLMotif/WidgetAttribute.h

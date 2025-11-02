@@ -13,7 +13,7 @@
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#2563eb" />
     
-    <!-- Canonical URL -->
+    <!-- Canonical URL - ATUALIZADO SEM LOVABLE -->
     <link rel="canonical" href="https://caixade-areia.com/" />
     
     <!-- Open Graph / Facebook -->
@@ -89,11 +89,22 @@
       }]
     }
     </script>
-    <script type="module" crossorigin src="/assets/index-C3UWLOf3.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BZrlykn-.css">
+    <script type="module" crossorigin src="/assets/index-CBLF16GY.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DF0--ifk.css">
   </head>
   <body>
     <div id="root"></div>
+    
+    <!-- GitHub Pages SPA redirect script -->
+    <script>
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
     
     <!-- No Analytics/Tracking from Lovable -->
   </body>

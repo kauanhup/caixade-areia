@@ -1,3 +1,4 @@
+
 # Projeto Caixa de Areia Interativa - Rio Branco (MT)
 
 ## 📖 Sobre o Projeto
@@ -35,7 +36,7 @@ Este projeto requer o **Linux Mint 19.3 Cinnamon 64-bit** como sistema operacion
 
 ### 2. Baixar os arquivos do projeto
 
-Faça o download do arquivo de instalação [aqui](https://github.com/lifefurb/caixaeagua/releases/download/v1.0/instalacao-caixa-e-agua.tar.gz).
+Faça o download do arquivo de instalação [aqui](https://github.com/kauanhup/caixade-areia/raw/main/assent/instalacao-caixa-de-areia.tar.gz).
 
 ### 3. Preparar os arquivos
 
@@ -69,9 +70,9 @@ Este script instala os drivers e bibliotecas necessários para o sensor Kinect.
 ```
 Instala o software Augmented Reality Sandbox.
 
-#### 4.4. Instalar o Caixa e-Água
+#### 4.4. Instalar o Caixade-Areia
 ```bash
-./Instalar-Caixa-e-Agua.sh
+./Instalar-caixade-areia.sh
 ```
 Instala as customizações e recursos específicos do projeto brasileiro.
 
@@ -81,12 +82,12 @@ Instala as customizações e recursos específicos do projeto brasileiro.
 
 2. Dê permissão de execução ao arquivo:
 ```bash
-chmod +x ~/Área\ de\ Trabalho/Caixa-e-Agua.sh
+chmod +x ~/Área\ de\ Trabalho/Caixa-de-areia.sh
 ```
 
 ### 6. Executar o programa
 
-Execute o arquivo **Caixa-e-Agua.sh** na área de trabalho clicando duas vezes sobre ele.
+Execute o arquivo **Caixa-de-areia.sh** na área de trabalho clicando duas vezes sobre ele.
 
 ## 📚 Documentação Adicional
 
@@ -107,3 +108,4 @@ Este projeto utiliza componentes do AR Sandbox original, desenvolvido pela UC Da
 
 **Modificado para fins educacionais - Projeto Caixa de Areia Interativa**  
 Rio Branco, Mato Grosso, Brasil
+

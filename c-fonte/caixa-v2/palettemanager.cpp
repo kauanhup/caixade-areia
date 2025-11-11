@@ -3,15 +3,29 @@
 #include <QTextStream>
 #include <QDir>
 #include <QDebug>
+#include <QProcess>
+
+// 🧭 Função auxiliar para detectar automaticamente a Área de Trabalho (independente de idioma)
+QString getDesktopPath() {
+    QProcess proc;
+    proc.start("xdg-user-dir DESKTOP");
+    proc.waitForFinished();
+    QString path = QString(proc.readAllStandardOutput()).trimmed();
+    return path.isEmpty() ? QDir::homePath() + "/Desktop" : path;
+}
 
 PaletteManager::PaletteManager(QObject *parent)
     : QObject(parent)
     , m_selectedPalette(0)
 {
-    // 🔥 Configurar caminhos
-    m_pastaBase = "/home/kauan/Caixade-Areia/resources/tabela_c/";
-    m_arquivoConfig = "/home/kauan/Caixade-Areia/conf/config_paleta.txt";
-    m_destinoCpt = "/home/kauan/src/SARndbox/etc/HeightColorMap.cpt";
+    // 🧱 Base paths dinâmicos — detecta automaticamente o usuário
+    QString basePath = QDir::homePath();
+    QString desktopPath = getDesktopPath();
+
+    m_pastaBase   = basePath + "/Caixade-Areia/resources/tabela_c/";
+    m_arquivoConfig = basePath + "/Caixade-Areia/conf/config_paleta.txt";
+    m_destinoCpt  = QDir::homePath() + "/src/SARndbox-2.8/etc/SARndbox-2.8/HeightColorMap.cpt";
+
     
     // Carrega configuração salva
     loadConfiguration();

@@ -712,19 +712,18 @@ moc_basinmanager.cpp: basinmanager.h \
 		/opt/qt515/include/QtCore/qcontainerfwd.h \
 		/opt/qt515/include/QtCore/qobject_impl.h \
 		/opt/qt515/include/QtCore/QString \
-		/opt/qt515/include/QtCore/QProcess \
-		/opt/qt515/include/QtCore/qprocess.h \
-		/opt/qt515/include/QtCore/qiodevice.h \
-		/opt/qt515/include/QtCore/qshareddata.h \
-		/opt/qt515/include/QtCore/qhash.h \
+		/opt/qt515/include/QtCore/QStringList \
 		/opt/qt515/include/QtQml/QQmlApplicationEngine \
 		/opt/qt515/include/QtQml/qqmlapplicationengine.h \
 		/opt/qt515/include/QtQml/qqmlengine.h \
 		/opt/qt515/include/QtCore/qurl.h \
 		/opt/qt515/include/QtCore/qurlquery.h \
+		/opt/qt515/include/QtCore/qshareddata.h \
+		/opt/qt515/include/QtCore/qhash.h \
 		/opt/qt515/include/QtCore/qmap.h \
 		/opt/qt515/include/QtCore/qdebug.h \
 		/opt/qt515/include/QtCore/qtextstream.h \
+		/opt/qt515/include/QtCore/qiodevice.h \
 		/opt/qt515/include/QtCore/qlocale.h \
 		/opt/qt515/include/QtCore/qvariant.h \
 		/opt/qt515/include/QtCore/qset.h \
@@ -1244,19 +1243,18 @@ basinmanager.o: basinmanager.cpp basinmanager.h \
 		/opt/qt515/include/QtCore/qcontainerfwd.h \
 		/opt/qt515/include/QtCore/qobject_impl.h \
 		/opt/qt515/include/QtCore/QString \
-		/opt/qt515/include/QtCore/QProcess \
-		/opt/qt515/include/QtCore/qprocess.h \
-		/opt/qt515/include/QtCore/qiodevice.h \
-		/opt/qt515/include/QtCore/qshareddata.h \
-		/opt/qt515/include/QtCore/qhash.h \
+		/opt/qt515/include/QtCore/QStringList \
 		/opt/qt515/include/QtQml/QQmlApplicationEngine \
 		/opt/qt515/include/QtQml/qqmlapplicationengine.h \
 		/opt/qt515/include/QtQml/qqmlengine.h \
 		/opt/qt515/include/QtCore/qurl.h \
 		/opt/qt515/include/QtCore/qurlquery.h \
+		/opt/qt515/include/QtCore/qshareddata.h \
+		/opt/qt515/include/QtCore/qhash.h \
 		/opt/qt515/include/QtCore/qmap.h \
 		/opt/qt515/include/QtCore/qdebug.h \
 		/opt/qt515/include/QtCore/qtextstream.h \
+		/opt/qt515/include/QtCore/qiodevice.h \
 		/opt/qt515/include/QtCore/qlocale.h \
 		/opt/qt515/include/QtCore/qvariant.h \
 		/opt/qt515/include/QtCore/qset.h \
@@ -1292,6 +1290,8 @@ basinmanager.o: basinmanager.cpp basinmanager.h \
 		/opt/qt515/include/QtCore/qthread.h \
 		/opt/qt515/include/QtCore/qdeadlinetimer.h \
 		/opt/qt515/include/QtCore/qelapsedtimer.h \
+		/opt/qt515/include/QtCore/QProcess \
+		/opt/qt515/include/QtCore/qprocess.h \
 		/opt/qt515/include/QtQml/QQmlComponent \
 		/opt/qt515/include/QtQml/qqmlcomponent.h \
 		/opt/qt515/include/QtQuick/QQuickWindow \
@@ -1343,7 +1343,12 @@ basinmanager.o: basinmanager.cpp basinmanager.h \
 		/opt/qt515/include/QtGui/qevent.h \
 		/opt/qt515/include/QtGui/qkeysequence.h \
 		/opt/qt515/include/QtGui/qvector2d.h \
-		/opt/qt515/include/QtGui/qtouchdevice.h
+		/opt/qt515/include/QtGui/qtouchdevice.h \
+		/opt/qt515/include/QtCore/QTimer \
+		/opt/qt515/include/QtCore/qtimer.h \
+		/opt/qt515/include/QtCore/qbasictimer.h \
+		/opt/qt515/include/QtGui/QImage \
+		/opt/qt515/include/QtCore/QtGlobal
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o basinmanager.o basinmanager.cpp
 
 palettemanager.o: palettemanager.cpp palettemanager.h \
@@ -1420,7 +1425,9 @@ palettemanager.o: palettemanager.cpp palettemanager.h \
 		/opt/qt515/include/QtCore/QDir \
 		/opt/qt515/include/QtCore/qdir.h \
 		/opt/qt515/include/QtCore/qfileinfo.h \
-		/opt/qt515/include/QtCore/QDebug
+		/opt/qt515/include/QtCore/QDebug \
+		/opt/qt515/include/QtCore/QProcess \
+		/opt/qt515/include/QtCore/qprocess.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o palettemanager.o palettemanager.cpp
 
 qrc_qml.o: qrc_qml.cpp 

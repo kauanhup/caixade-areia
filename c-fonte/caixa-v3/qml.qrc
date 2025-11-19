@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <!-- Arquivo principal -->
+        <file>Main.qml</file>
+        
+        <!-- ==================== PÁGINAS ==================== -->
+        <file>pages/WorkspacePage.qml</file>
+        <file>pages/SandboxColorsPage.qml</file>
+        <file>pages/SandboxBasinsPage.qml</file>
+        
+        <!-- ==================== SEÇÕES ==================== -->
+        <file>components/sections/HomeSectionContent.qml</file>
+        <file>components/sections/ColorsSectionContent.qml</file>
+        <file>components/sections/BasinsSectionContent.qml</file>
+        <file>components/sections/Map2DSectionContent.qml</file>
+        <file>components/sections/Map3DSectionContent.qml</file>
+        <file>components/sections/OthersSectionContent.qml</file>
+        <file>components/sections/CalibrateSectionContent.qml</file>
+        <file>components/sections/AboutSectionContent.qml</file>
+        <file>components/sections/FullscreenProjection.qml</file>
+        
+        <!-- ==================== COMPONENTES UI ==================== -->
+        <file>components/ui/CustomButton.qml</file>
+        <file>components/ui/Card.qml</file>
+        <file>components/ui/FeatureItem.qml</file>
+        
+        <!-- ==================== ASSETS - IMAGENS ==================== -->
+        <file>assets/images/modelo_1.png</file>
+        <file>assets/images/modelo_2.png</file>
+        <file>assets/images/modelo_3.png</file>
+        <file>assets/images/modelo_4.png</file>
+        <file>assets/images/modelo_5.png</file>
+        <file>assets/images/modelo_6.png</file>
+        <file>assets/app/icon.png</file> <!-- ✅ Novo ícone -->
+    </qresource>
+</RCC>
+
